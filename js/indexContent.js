@@ -49,6 +49,8 @@ window.onscroll = function () {
     var cliH = win("clientHeight");
     if(Math.abs(curT-cliH)>0)
     goBack.style.display =  "block" ;
+    if(curT==0)
+        goBack.style.display =  "none" ;
 };
 function win(attr, value) {
     if (typeof value === "undefined") {

@@ -741,7 +741,7 @@ body .bottomLogo a.register i{
 body .goBack{
     display: none;
     position: fixed;
-    right: 209px;
+    left: 1260px;
     bottom: 132px;
     background: url("../img/backtop.png") left top no-repeat;
     width: 28px;
