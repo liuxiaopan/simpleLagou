@@ -1,0 +1,279 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+body .header{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #00b38a
+}
+body .header a{
+    position: absolute;
+    top: 70px;
+    left: 135px;
+    display: block;
+    background: url("../img/logo_13bcdf6.png") no-repeat;
+    width: 128px;
+    height: 54px;
+}
+body .content{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: -150px auto;
+    background: white;
+}
+body .content ul{
+    list-style: none;
+    padding-top: 50px;
+}
+body .content .line{
+    position: absolute;
+    top: 73px;
+    left: 25px;
+    border: 1px solid #00b38a;
+    width: 150px;
+}
+body .content hr{
+    position: absolute;
+    left: 360px;
+    height: 180px;
+    border: 1px dotted gray;
+}
+body .content .hr1{
+    top: 45px;
+}
+body .content .hr2{
+    top: 285px;
+}
+body .content .or{
+    position: absolute;
+    left: 352px;
+    top:255px;
+}
+body .content ul li{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 33px;
+    cursor: pointer;
+    text-align: center;
+    color: #333;
+}
+body .content ul .li1 img{
+    position: absolute;
+    top: 1px;
+    left: 7px;
+    width: 12px;
+    height: 16px;
+}
+body .content ul .li1 span{
+    width: 50px;
+}
+body .content div{
+    clear: both;
+    width: 320px;
+    margin-left: 15px;
+}
+body .content .div1{
+    position: relative;
+float: left;
+    width: 300px;
+    margin: 0 auto;
+}
+body .content .div1 input{
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 25px;
+    float:left ;
+    outline: none;
+    color: #aeaeae;
+    font-size: 14px;
+    background: gainsboro;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+body .content .div1  .input0{
+    width: 260px;
+}
+body .content .div1 .random{
+    position: absolute;
+    top: 59px;
+    left: 160px;
+    width: 80px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 25px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    background: #00b38a;
+    border-radius: 3px;
+}
+body .content .div1 .refresh{
+    position: absolute;
+    top: 65px;
+    left: 245px;
+    background: url("../img/icon-reflash.jpg") no-repeat center center;
+    width: 19px;
+    height: 21px;
+    cursor: pointer;
+}
+body .content .div1 .getCode{
+    position: absolute;
+    top: 108px;
+    left: 173px;
+    width: 100px;
+    height: 39px;
+    background: #00b38a;
+    border: 1px solid;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+body .content .div1 .findJob,.employer{
+    float: left;
+    position: absolute;
+    top: 210px;
+    width: 120px;
+    height: 39px;
+    color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    background: #00b38a;
+}
+body .content .div1 .findJob{
+    left: 25px;
+}
+body .content .div1 .employer{
+    left: 168px;
+}
+body .content .div1 .footer{
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    top: 270px;
+    padding-left: 12px;
+}
+body .content .div1 .footer i{
+    float: left;
+    background: url("../img/checkbox1.png") no-repeat;
+    background-position: -13px 3px;
+    width: 13px;
+    height: 16px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+body .content .div1 .footer span{
+    padding:0  4px;
+}
+body .content .div1 .footer a{
+    color: #00b38a;
+    cursor: pointer;
+}
+body .content .div1 .regi{
+   position: absolute;
+    top:300px;
+    left: 25px;
+    width: 240px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+    background: #00b38a;
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+}
+body .content .div2{
+    position: absolute;
+    left: 350px;
+    width: 200px;
+}
+body .content .div2 .directLog{
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+}
+body .content .div2 .directLog span{
+    position: absolute;
+    top: 10px;
+    left: 13px;
+   width: 150px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+body .content .div2 .directLog .dL{
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    font-size: 20px;
+    color: #00b38a;
+}
+body .content .div2 .directLog i{
+    position: absolute;
+    top: 45px;
+    left: 160px;
+    width: 18px;
+    height: 17px;
+    background: url("../img/icon-arrow-right_f36c0d6.png")no-repeat center center;
+}
+body .content .div2 .otherLog{
+    position: relative;
+    top: 55px;
+}
+body .content .div2 .otherLog span{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+body .content .div2 .otherLog img{
+    margin: 10px;
+    margin-top: 50px;
+    float: left;
+    cursor: pointer;
+}
+body .content .div2 .otherLog .bg{
+    width: 110px;
+    height: 110px;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+body .content .div2 .otherLog .load{
+    position: absolute;
+    top: 256px;
+    left: 53px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+body .mark{
+    position: relative;
+    top: -400px;
+   left: 400px;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border-radius: 50%;
+    color: #ff1827;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: #fdff87;
+    display: none;
+}

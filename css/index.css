@@ -1,0 +1,771 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body .top {
+    height: 30px;
+    background: black;
+}
+
+.top ul {
+    height: 30px;
+}
+
+.top .ulLeft li {
+    position: relative;
+    width: 30px;
+}
+
+.top .ulLeft li img {
+    margin: 5px 0px;
+    position: absolute;
+    left: 25px;
+    text-align: center;
+}
+
+.top .ulLeft li a {
+    position: absolute;
+    margin: 3px;
+    color: white;
+    height: 25px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    display: inline-block;
+}
+
+.top .ulLeft li a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.top .ulLeft li .topFir {
+    left: 40px;
+    border-right: 1px solid gray;
+    width: 70px;
+    color: #00b38a;
+}
+
+.top .ulLeft li .topSec {
+    left: 125px;
+    width: 80px;
+}
+
+.top .ulLeft .liSec {
+    position: absolute;
+    right: 100px;
+    width: 40px;
+}
+
+.top .ulLeft li .topThir {
+    right: 50px;
+    border-right: 1px solid gray;
+    width: 50px;
+    height: 20px
+}
+
+.top .ulLeft li .topFou {
+    right: 0px;
+    width: 40px;
+}
+
+body .navigator {
+    position: relative;
+    height: 50px;
+    background: rgba(176, 167, 196, 0.07);
+    box-shadow: 1px 1px 0 2px rgba(176, 167, 196, 0.07);
+}
+
+body .navigator a {
+    display: inline-block;
+    width: 97px;
+    height: 34px;
+    margin-left: 160px;
+    margin-top: 10px;
+    background: url("../img/logo_d0915a9.png") no-repeat center center;
+}
+
+body .navigator .destination {
+    position: absolute;
+    top: 25px;
+    padding: 0 5px;
+    margin-left: 270px;
+    /*width: 50px;*/
+}
+
+body .navigator .address {
+    position: absolute;
+    top: 25px;
+    margin-left: 330px;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+
+body .navigator .change div {
+    position: absolute;
+    top: 25px;
+    width: 50px;
+    height: 24px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+}
+
+body .navigator .index {
+    margin-left: 440px;
+}
+
+body .navigator .corporation {
+    margin-left: 500px;
+}
+
+body .navigator .one-beat {
+    margin-left: 560px;
+}
+
+body .navigator .change div:hover {
+    border-bottom: 1px solid #00b38a;
+}
+
+body .navigator .box {
+    display: none;
+    position: relative;
+    background: rgba(46, 46, 46, 0.6) !important;
+    filter: alpha(opacity=60);
+    width: 1363px;
+    height: 615px;
+    margin-bottom: 0px;
+    z-index: 12000;
+
+}
+
+body .navigator .box .inner {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    position: absolute;
+    left: 440px;
+    top: 80px;
+    width: 480px;
+    height: 480px;
+    border: 10px solid #c4c4c4;
+    background: white;
+    position: relative;
+}
+
+body .navigator .box .inner .innerTop {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    width: 465px;
+    color: white;
+    background: #00b38a;
+}
+body .navigator .box .inner .innerTop .close{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background: url("../img/close.png") no-repeat center center;
+    width: 30px;
+    height: 30px;
+}
+body .navigator .box .inner .innerNav {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background: white;
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+    border-bottom: 1px dotted #6c6c6c;
+}
+
+body .navigator .box .inner .innerNav p {
+    height: 40px;
+    line-height: 40px;
+}
+
+body .navigator .box .inner .innerNav .p1 {
+    font-size: 22px;
+    font-weight: 200;
+    padding-top: 3px;
+}
+
+body .navigator .box .inner div {
+    margin: 2px auto;
+    width: 400px;
+    height: 260px;
+}
+
+body .navigator .box .inner div ul li {
+    float: left;
+    width: 80px;
+    margin-top: 25px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid darkgray;
+}
+
+body .navigator .box .inner div .ul1 {
+    margin: 2px auto;
+    width: 400px;
+    height: 90px;
+}
+
+body .navigator .box .inner div .ul1 li {
+    border: none
+}
+
+body .navigator .box .inner div .ul1 .li2 {
+    border: 1px solid #00b38a;
+    cursor: pointer;
+}
+
+body .navigator .box .inner div .ul1 .li3 {
+    width: 150px
+}
+
+body .navigator .box .inner div .ul2 {
+    margin-top: -20px;
+    width: 400px;
+    height: 150px;
+}
+
+body .navigator .box .inner div .ul2 li {
+    margin-left: 25px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    cursor: pointer;
+}
+
+body .navigator .box .inner div .ul2 li:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    border: 1px solid #00b38a;
+}
+
+body .navigator .box .inner .footer {
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    padding-left: 6px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    margin: -20px auto;
+}
+
+body .leftMenu {
+    position: absolute;
+    left: 210px;
+    top: 110px;
+    width: 210px;
+    background: gainsboro;
+    font-size: 14px;
+    z-index: 3000;
+}
+
+body .leftMenu div {
+    margin-top: 12px;
+    /*margin-left: 21px;*/
+    padding:1px 10px;
+    height: 78px;
+}
+
+body .leftMenu .div0 {
+    height: 124px
+}
+
+body .leftMenu .div5 {
+    height: 58px
+}
+
+body .leftMenu div img {
+    position: absolute;
+    right: 15px;
+    padding-top: 6px;
+    width: 10px;
+    height: 13px;
+    overflow: hidden;
+}
+
+body .leftMenu div span {
+    height: 25px;
+    line-height: 25px;
+    color: #6c6c6c;
+    font-size: 16px;
+}
+
+body .leftMenu div ul li {
+    float: left;
+    padding: 2px;
+    height: 25px;
+    line-height: 25px;
+    color: #6c6c6c;;
+    cursor: pointer;
+}
+
+body .leftMenu div ul li a {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+
+body .leftMenu ul li a:hover {
+    color: #00b38a;
+    text-decoration: underline;
+}
+body .forget{
+    position: relative;
+    left: 420px;
+    width: 540px;
+    background: white;
+    z-index: 2000;
+}
+body .forget div{
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid gainsboro;
+    clear: both;
+    display: none;
+}
+body .forget .skill{
+    margin-top: 30px;
+}
+body .forget .product{
+     margin-top: 100px;
+ }
+body .forget .design{
+    margin-top: 135px;
+}
+body .forget .operation{
+    margin-top: 270px;
+}
+body .forget .market{
+    margin-top: 280px;
+}
+body .forget .function{
+    margin-top: 320px;
+}
+body .forget div>a{
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 5px;
+    float: left;
+}
+body .forget div ul{
+    margin-left: 75px;
+    width: 400px;
+    overflow: hidden;
+}
+body .forget div ul li{
+    float: left;
+    padding: 10px;
+    height: 12px;
+    line-height: 12px;
+    border-right: 1px solid gainsboro;
+}
+body .forget div ul li a{
+    display: inline-block;
+}
+body .leftFooter {
+    position: absolute;
+    left: 210px;
+    top: 715px;
+    width: 210px;
+    height: 40px;
+    border-bottom: 2px solid #00b38a;
+    background: #dedfff;
+    font-size: 14px;
+}
+
+body .leftFooter a {
+    position: relative;
+    left: 25px;
+    top: 10px;
+    display: inline-block;
+    color: #6c6c6c;
+}
+
+body .leftFooter a .div7 {
+    margin-left: 110px;
+    margin-top: -15px;
+    width: 21px;
+    height: 20px;
+    line-height: 20px;
+    background: url("../img/arr_btn_c46d8e5.png") no-repeat;
+    background-position: 0 -20px;
+}
+
+body .content {
+    position: absolute;
+    left: 460px;
+    top: 110px;
+    width: 680px;
+    height: 1000px;
+    font-size: 15px;
+    /*background: #ee88ff;*/
+}
+
+body .content input {
+    float: left;
+    border: 1px solid #00b38a;
+}
+
+body .content .input0 {
+    padding-left: 15px;
+    width: 512px;
+    height: 33px;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+body .content .input1 {
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    background: #00b38a;
+    color: white;
+}
+
+body .content .hotSearch a {
+    margin-top: 8px;
+    margin-left: 15px;
+    float: left;
+    color: black;
+}
+
+body .content .hotSearch .promoted {
+    color: #00b38a;
+}
+
+body .content .hotSearch a:hover {
+    color: #00b38a;
+    text-decoration: underline;
+}
+
+body .content .hotSearch .title {
+    margin-left: 0;
+}
+
+body .content .hotSearch .title:hover {
+    color: black;
+    text-decoration: none;
+    cursor: alias;
+}
+
+body .content .banner {
+    position: relative;
+    top: 18px;
+    width: 650px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.banner .bannerImg {
+    position: absolute;
+    top: -160px;
+    left: 0;
+    height: 800px;
+    overflow: hidden;
+}
+
+.banner .bannerImg img {
+    height: 160px;
+    width: 550px;
+}
+
+.banner .bannerTip img {
+    position: absolute;
+    left: 560px;
+    width: 85px;
+    height: 40px;
+    border: 2px solid #6c6c6c;
+}
+
+.banner .bannerTip .small1 {
+    top: 0px;
+}
+
+.banner .bannerTip .small2 {
+    top: 50px;
+}
+
+.banner .bannerTip .small3 {
+    top: 100px;
+}
+
+.banner .control {
+    position: absolute;
+    top: 0px;
+    left: 555px;
+    width: 95px;
+    height: 47px;
+}
+
+body .conImg {
+    position: absolute;
+    top: 251px;
+    left: -10px;
+    cursor: pointer;
+}
+
+body .conImg div {
+    position: relative;
+    top: 0px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+body .conImg div img {
+    width: 100%;
+    height: 100%;
+}
+
+body .conImg div .mark {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background: #00b38a;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+body .conImg div .mark h2 {
+    height: 20px;
+    line-height: 20px;
+}
+body .conImg div .mark hr {
+    width: 90px;
+    height: 2px;
+    margin: 5px auto;
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+body .conImg div .mark p {
+    font-size: 12px;
+}
+
+body .contentBox {
+    margin: 140px auto;
+    left: 0px;
+    text-align: center;
+}
+
+body .contentBox .ul0 {
+    width: 744px;
+    height: 35px;
+    line-height: 35px;
+    background: #dedfff;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    cursor: pointer;
+}
+
+body .contentBox .ul0 li {
+    float: left;
+    /*margin-left: 5px;*/
+    width: 110px;
+    height: 35px;
+    font-size: 20px
+}
+body .contentBox .ul0 .selectCard{background: white;border-top: 1px solid #00b38a; }
+body .contentBox .contentBanner .ul1{display: none;}
+body .contentBox .contentBanner .selected{display: block;}
+body .contentBox .contentBanner .ul1 li {
+    width: 744px;
+    height: 123px;
+    border-bottom: 1px dashed darkgray;
+}
+body .contentBox .contentBanner .ul1 li div div {
+    position: relative;
+    float: left;
+    width: 350px;
+    padding-left: 15px;
+}
+body .contentBox .contentBanner .ul1 li div div a {
+    position: absolute;
+    left: 15px;
+    font-size: 16px;
+    color: #00b38a;
+}
+body .contentBox .contentBanner .ul1 li div div div{
+    position: absolute;
+    left: -7px;
+    top: 6px;
+    font-size: 12px;
+}
+body .contentBox .contentBanner .ul1 li div div span {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+body .contentBox .ul1 li .outer1 {
+    padding-top: 20px;
+}
+body .contentBox .contentBanner .ul1 li .outer1 .bestStorm{
+   position: absolute;
+    left: 222px;
+    top: 2px;
+}
+body .contentBox .contentBanner .ul1 li .outer2 .forBorder span{
+    height: 25px;
+    width: 62px;
+    line-height: 25px;
+    border: 1px solid gainsboro;
+}
+body .bottomLogo{
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 64px;
+    z-index: 10000;
+    background: url("../img/footerbar_repeat_c5aebac.png") repeat-x;/*repeat-x:表示横向铺满*/
+}
+body .bottomLogo div{
+    width: 95px;
+    height: 54px;
+    background: url("../img/bottomLog.png") no-repeat;
+    margin-left: 105px;
+    margin-top: -54px;
+}
+body .bottomLogo img{
+    width:138px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 105px;
+}
+body .bottomLogo span{
+    line-height: 38px;
+    font-weight: 100;
+    color: #dafaf4;
+    display: inline-block;
+    height: 30px;
+    padding-right: 33px;
+}
+body .bottomLogo .span0{
+    background: url("../img/footbar_text_fd4f55f.png") right 16px no-repeat;
+    margin: 20px 0 0 194px;
+}
+body .bottomLogo span i{
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background: url("../img/footbar_no_2448ca7.png") 0 0 no-repeat;
+}
+body .bottomLogo span b{
+    font-weight: bold;
+    display: inline-block;
+    width: 9px;
+    height: 30px;
+    background: url("../img/footbar_comma_365ec06.png") center bottom no-repeat;
+}
+body .bottomLogo .span1{
+    background: url("../img/footbar_text_fd4f55f.png") right 0px bottom no-repeat ;
+    padding-right: 33px;
+    margin: 20px 0 0 60px;
+}
+body .bottomLogo a{
+    display: block;
+    padding: 0 34px;
+    height: 64px;
+}
+body .bottomLogo a.login{
+    margin-left: 960px;
+    margin-top: -53px;
+    width: 50px;
+}
+body .bottomLogo a.login:hover{
+    background: #00b38a;
+}
+body .bottomLogo a i{
+    height: 64px;
+    display: block;
+}
+body .bottomLogo .dif{
+    margin-left: 1078px;
+    margin-top: -65px;
+    width: 286px;
+    height: 64px;
+    background: #ff6c60;
+}
+body .bottomLogo a.login i{
+    width: 50px;
+    background: url("../img/footbar_login_72d6866.png") center center no-repeat;
+}
+body .bottomLogo a.register{
+  width:150px;
+}
+body .bottomLogo a.login:hover{
+    background: #00b38a;
+}
+body .bottomLogo a.register:hover{
+    background: #ff514d;
+}
+body .bottomLogo a.register i{
+    width: 119px;
+    background: url("../img/footbar_register_f544a92.png") center center no-repeat;
+}
+body .goBack{
+    display: none;
+    position: fixed;
+    right: 209px;
+    bottom: 132px;
+    background: url("../img/backtop.png") left top no-repeat;
+    width: 28px;
+    height: 64px;
+}
+body .goBack:hover{
+    background-position-x:-28px;
+}
+body .feedBack{
+    position: fixed;
+    left: 1250px;
+    bottom: 64px;
+    height: 64px;
+    z-index: 10000;
+}
+body .feedBack .feedImg{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url("../img/feedback_06c5af9.png") left center no-repeat;
+    background-position:0 0;
+}
+body .feedBack span{font-size: 12px;
+    color: #555;}
+body .feedBack .feedImg:hover{
+    background-position-y: -30px;
+}
